@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
 	<title>Voyager-IEEE VIT</title>
 	   <meta charset="UTF-8">
@@ -10,13 +12,13 @@
         crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/form.css">
-
+	<script type="text/javascript" src="js/main.js"></script>
 
 
 </head>
 <body>
 	<!--navigation bar-->
-	<nav class="navbar navbar-dark sticky-top">
+	<div class="topnav">
   <a class="navbar-brand" href="#">
     <img src="img/ieeevit.png" width="125" height="40" class="d-inline-block align-top" alt="VIT">
   </a>
@@ -46,29 +48,70 @@
   </li>
 
 </ul>
-
+</div>
 
 </nav>
+<!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+
 
 	<!--background video-->
-	 <div class="container-fluid">
-    <div class="video-container">
-         	<video id="bdvid" autoplay loop muted playsinline>
-             <source src="img/Rotation Of The Planet Earth.mp4" type="video/mp4">
-            </video>
-            </div>
-          </div>
+    <video autoplay muted loop id="myVideo">
+  <source src="img/Rotation of The Planet Earth.mp4" type="video/mp4">
+  </video>
 
 <!--caption part and button-->
-<div class="caption">
+<div class="content">
+<h1>VOYAGER 2K20</h1>
+<p>Technical Fest IEEE VIT</p>
+<!-- Use a button to pause/play the video with JavaScript -->
+<button id="myBtn" >Let's Explore</button>
+</div>
+</section>
+<p style="page-break-before: always">
 
-	<h1>VOYAGER 2K20</h1>
-	<h3>Technical Fest of IEEE VIT</h3>
-	<button type="button" class="btn btn-outline-info">Let's Explore</button>
+<div class="container" id="box1">
+<h3>ABOUT VOYAGER</h3>
+    <p>Welcome to Voyager - the Technical fest of IEEE-VIT. Voyager is a coalescence of technical workshops and competitions aimed at inspiring students to explore technology and develop valuable skills as engineers.</p>
+	<p> Stay runed for updates!</p>
+    <h4>Some Glimpses of Voyager 2018</h4>
+     <h4>Slides will be added</h4>
+	 <p> </p>
+	 <p style="page-break-before: always">
+
+		 <div class="dropdown">
+	   <button class="dropbtn">Fun Events</button>
+	   <div class="dropdown-content">
+	     <a href="#">Minecraft Maze Runner</a>
+	     <a href="#">Minute to Win it</a>
+	     <a href="#">Treasure Hunt</a>
+	   </div>
+	 </div>
+
+	 <div class="dropdown">
+	 <button class="dropbtn">Competitions</button>
+	 <div class="dropdown-content">
+	 <a href="#">Add 1</a>
+	 <a href="#">Add 2</a>
+	 <a href="#">Add 3</a>
+	 </div>
+	 </div>
+
+	 <div class="dropdown">
+   <button class="dropbtn">Workshops</button>
+   <div class="dropdown-content">
+	<a href="#">Add 1</a>
+   	<a href="#">Add 2</a>
+   	<a href="#">Add 3</a>
+   </div>
+ </div>
+
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </body>
 </html>
